@@ -19,18 +19,18 @@ In this excercise we will attempt to form clusters unsupervised based on the pal
 # Summary of Unsupervised Learning
 The unsupervised Machine learning flow on Palm Tree Species dataset is summarized as follows:
 
-1.The dataset was trimmed to removed the missing traits account for 65% of palm species. The input contains binary, continuous and categorical type features that were standardized for modelling.
+1. The dataset was trimmed to removed the missing traits account for 65% of palm species. The input contains binary, continuous and categorical type features that were standardized for modelling.
 
-2.Taxonomy labels of Palm Subfamily and Palm Tribe were used to cross validate the clustering in the form of visualization QC and ARI score
+2. Taxonomy labels of Palm Subfamily and Palm Tribe were used to cross validate the clustering in the form of visualization QC and ARI score
 
-3.Dimensional Reduction analysis from t-SNE and UMAP shows more elaborate grouping of 6 to 10 clusters. PCA showed three linearly separable clusters. UMAP dimensional reduction overall gave the best separation (visually) with tuned hyperparameters.
+3. Dimensional Reduction analysis from t-SNE and UMAP shows more elaborate grouping of 6 to 10 clusters. PCA showed three linearly separable clusters. UMAP dimensional reduction overall gave the best separation (visually) with tuned hyperparameters.
 
-4.Four clustering techniques were used for modelling (K Means, Agglomerate, DBSCAN and GMM). The derived silhouette scores were in the range of 0.4 for clustering between 6 to 8.
+4. Four clustering techniques were used for modelling (K Means, Agglomerate, DBSCAN and GMM). The derived silhouette scores were in the range of 0.4 for clustering between 6 to 8.
 
-5.In contrast, ARI score using Palm SubFamily were between 0.20 to 0.25 for ncluster 3 to 4.
+5. In contrast, ARI score using Palm SubFamily were between 0.20 to 0.25 for ncluster 3 to 4.
 
-6.Cluster analysis on Palm Subfamily shows overall consistent distribution of datapoints. Arecoideae Subfamily is shown to be dominant in 2 cluster where as Calamoideae Subfamily is dominant in 1 cluster.
+6. Cluster analysis on Palm Subfamily shows overall consistent distribution of datapoints. Arecoideae Subfamily is shown to be dominant in 2 cluster where as Calamoideae Subfamily is dominant in 1 cluster.
 
-7.Bivariate distribution for each predicted cluster is similar among the models.
+7. Bivariate distribution for each predicted cluster is similar among the models.
 
-8.The predicted clusters and taxonomical grouping (Subfamily and Tribe) are not in agreement. This implies that datapoint sharing the same physical traits (fruit properties, stem, growth etc) could potentially originate from different Subfamily or Tribes. This information can be used to advantage in plantation planning or forest regeneration as certain region (or ecosystem or natural habitat) could support specific plant species to grow.
+###8. The predicted clusters and taxonomical grouping (Subfamily and Tribe) are not in agreement. This implies that datapoint sharing the same physical traits (fruit properties, stem, growth etc) could potentially originate from different Subfamily or Tribes. This information can be used to advantage in plantation planning or forest regeneration as certain region (or ecosystem or natural habitat) could support specific plant species to grow.
