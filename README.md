@@ -33,4 +33,4 @@ The unsupervised Machine learning flow on Palm Tree Species dataset is summarize
 
 7. Bivariate distribution for each predicted cluster is similar among the models.
 
-###8. The predicted clusters and taxonomical grouping (Subfamily and Tribe) are not in agreement. This implies that datapoint sharing the same physical traits (fruit properties, stem, growth etc) could potentially originate from different Subfamily or Tribes. This information can be used to advantage in plantation planning or forest regeneration as certain region (or ecosystem or natural habitat) could support specific plant species to grow.
+8. **The predicted clusters and taxonomical grouping (Subfamily and Tribe) are not in agreement. This implies that datapoint sharing the same physical traits (fruit properties, stem, growth etc) could potentially originate from different Subfamily or Tribes. This information can be used to advantage in plantation planning or forest regeneration as certain region (or ecosystem or natural habitat) could support specific plant species to grow.
