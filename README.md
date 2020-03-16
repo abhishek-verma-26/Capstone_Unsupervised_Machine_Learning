@@ -19,8 +19,8 @@ In this excercise we will attempt to form clusters unsupervised based on the pal
 # Summary of Unsupervised Learning
 The unsupervised Machine learning flow on Palm Tree Species dataset is summarized as follows:
 
-1)The dataset was trimmed to removed the missing traits account for 65% of palm species. The input contains binary, continuous and categorical type features that were standardized for modelling.
-2)Taxonomy labels of Palm Subfamily and Palm Tribe were used to cross validate the clustering in the form of visualization QC and ARI score
+1.The dataset was trimmed to removed the missing traits account for 65% of palm species. The input contains binary, continuous and categorical type features that were standardized for modelling.
+2.Taxonomy labels of Palm Subfamily and Palm Tribe were used to cross validate the clustering in the form of visualization QC and ARI score
 3)Dimensional Reduction analysis from t-SNE and UMAP shows more elaborate grouping of 6 to 10 clusters. PCA showed three linearly separable clusters. UMAP dimensional reduction overall gave the best separation (visually) with tuned hyperparameters.
 4)Four clustering techniques were used for modelling (K Means, Agglomerate, DBSCAN and GMM). The derived silhouette scores were in the range of 0.4 for clustering between 6 to 8.
 5)In contrast, ARI score using Palm SubFamily were between 0.20 to 0.25 for ncluster 3 to 4.
