@@ -6,17 +6,17 @@ https://datadryad.org/stash/dataset/doi:10.5061/dryad.ts45225
 Nature Article citing the Data
 https://www.nature.com/articles/s41597-019-0189-0
 
-#Introduction
+# Introduction
 Plam tree are an important plant group contributing to the bio diversity and to the global economy, in general, by providing raw materials for food, oil, fuel etc. Based on the region, climate and ecosystem a variety of palm tree species can be grow globally. Knowing the physical triats and the taxonomy of each species can help evaluate the interrelationships between species belongs to a different taxonomical group like Palm Subfamily or Plam Tribe.
 
 The dataset used for this excercise is based on the derived measurement of over 2500 species of palm tree. As cited from https://www.nature.com/articles/s41597-019-0189-0#Tab1 , the dataset contains the global species compilation of functional traits of palm tree (Arecaceae) which predominantly grows in tropical and subtropical ecosystem
 
-#Objective
+# Objective
 
 In this excercise we will attempt to form clusters unsupervised based on the palm tree traits and cross reference it with the taxonomy labels. We test the hypothesis that the clustering based on plants traits or physical properties is in agreement with the taxonomical group.
 
 
-#Summary of Unsupervised Learning
+# Summary of Unsupervised Learning
 The unsupervised Machine learning flow on Palm Tree Species dataset is summarized as follows:
 
 1)The dataset was trimmed to removed the missing traits account for 65% of palm species. The input contains binary, continuous and categorical type features that were standardized for modelling.
