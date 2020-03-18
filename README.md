@@ -7,7 +7,7 @@ Nature Article citing the Data
 https://www.nature.com/articles/s41597-019-0189-0
 
 ## Introduction
-Plam tree are an important plant group contributing to the bio diversity and to the global economy, in general, by providing raw materials for food, oil, fuel etc. Based on the region, climate and ecosystem a variety of palm tree species can be grow globally. Knowing the physical triats and the taxonomy of each species can help evaluate the interrelationships between species belongs to a different taxonomical group like Palm Subfamily or Plam Tribe.
+Plam trees are an important plant group contributing to the bio diversity and to the global economy, in general, by providing raw materials for food, oil, fuel etc. Based on the region, climate and ecosystem a variety of palm tree species can be grow globally. Knowing the physical triats and the taxonomy of each species can help evaluate the interrelationships between species belongs to a different taxonomical group like Palm Subfamily or Plam Tribe.
 
 The dataset used for this excercise is based on the derived measurement of over 2500 species of palm tree. As cited from https://www.nature.com/articles/s41597-019-0189-0#Tab1 , the dataset contains the global species compilation of functional traits of palm tree (Arecaceae) which predominantly grows in tropical and subtropical ecosystem
 
