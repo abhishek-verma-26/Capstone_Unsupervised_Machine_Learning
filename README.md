@@ -1,4 +1,4 @@
-This is Capstone project on Unsupervised Machine Learning on Palm trait Dataset covering 2500 species of palm tree.
+This is a Capstone project on Unsupervised Machine Learning on Palm trait Dataset covering 2500 species of palm tree.
 
 Datasets is available from the link below.
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.ts45225
